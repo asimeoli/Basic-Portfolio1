@@ -1,0 +1,54 @@
+header {
+	width: 100%
+}
+#name {
+	background-color: #4aaaa5;
+	text-align: center;
+	color: white;
+	height:80px;
+	width: 30%;
+	padding:20px;
+	font-size: 32px;
+	float: left;
+}
+
+#about{
+	float: left;
+}
+
+#portfolio{
+	float:left;
+}
+
+#contact{
+	float:left;
+}
+
+#connect{
+	clear: both;
+	overflow: auto;
+	float: right;
+	background-color: white;
+	border: solid;
+	border-color: gray; 
+	text-align: center;
+}
+
+#aboutme{
+	clear: both;
+	overflow: auto;
+	background-color: white;
+}
+
+#imgAnn {
+	;
+}
+
+footer{
+	background-color: #666;
+}
+
+//* {
+	background-image: url("https://raw.githubusercontent.com/asimeoli/Basic-Portfolio1/master/assets/images/seigaiha.png");
+	z-index: 1;
+}
