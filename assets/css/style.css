@@ -32,6 +32,7 @@ h1 {
 #links {
 	display: inline-block;
 	margin-left: 400px;
+	font-family: arial;
 }
 
 main {
@@ -46,6 +47,7 @@ main {
 
 p {
 	margin: 30px;
+	font-family: arial;
 }
 
 #aboutme{
@@ -95,8 +97,21 @@ p {
 	background-color: white;
 	margin-left: 150px;
 	margin-top: 35px
-	
 }
+
+#form {
+	padding: 30px;
+}
+
+.info {
+	font-family: arial;
+	font-size: 18px;
+}
+
+.pictures {
+	padding: 20px;
+}
+
 
 footer {
 	background-color: #666;
@@ -105,6 +120,4 @@ footer {
     height: 100px;
     text-align: center;
     border-top: 20px solid #4aaaa5;	
-    
-
 }
