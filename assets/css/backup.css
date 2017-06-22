@@ -1,0 +1,110 @@
+*{
+	box-sizing: border-box;
+}	
+
+body {
+	margin-left:20px;
+	margin-right: 20px;
+	width: 1220px;
+	
+
+}
+
+header {
+	height: 90px;
+	width: 100%;
+	background-color: white;
+}
+
+h1 {
+	display: inline-block;
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    padding-top: 30px;
+    background-color: #4aaaa5;
+    color: white;
+    font-family: georgia;
+    font-size: 36px;
+    margin-left: 150px;
+}
+
+#links {
+	display: inline-block;
+	margin-left: 400px;
+}
+
+main {
+	background-image: url("https://raw.githubusercontent.com/asimeoli/Basic-Portfolio1/master/assets/images/seigaiha.png");
+}
+
+#imgAnn {
+	float: left;
+	margin: 30px;
+	
+}
+
+p {
+	margin: 30px;
+}
+
+#aboutme{
+	clear: both;
+	overflow: auto;
+	font-size: 36px;
+	font-family: Georgia; 
+	color: #4aaaa5;
+	padding-top: 30px;
+	padding-bottom: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
+	border-bottom: solid #eee;
+}
+
+
+#connect {
+	display: inline-block;
+	vertical-align: top;
+	width: 270px;
+	border: solid #eee;
+	margin-left: 35px;
+	margin-top: 35px;
+	font-family: georgia;
+	font-size: 24px;
+	color: #4aaaa5;
+	text-align: center;
+	padding: 30px;
+	height: 200px;
+	background-color: white;
+}
+
+#connectwme {
+	padding-bottom: 20px;
+}
+
+#icons {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-top: solid #eee;
+}
+
+#mediv {
+	display: inline-block;
+	width: 650px;
+	border: solid #eee;
+	background-color: white;
+	margin-left: 150px;
+	margin-top: 35px
+	
+}
+
+footer {
+	background-color: #666;
+	padding-top: 20px;
+    width:100%;
+    height: 100px;
+    text-align: center;
+    border-top: 20px solid #4aaaa5;	
+    
+
+}
