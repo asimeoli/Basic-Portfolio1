@@ -2,64 +2,79 @@
 <html lang="en">
 
 <head>
+	
+	<title>Hello!</title>
 	<meta charset="utf-8">
-	<title>Contact</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/backup.css">
+
+	
 </head>
 
 <body>
-<header>
-		<span>
+	<header>
+		<h1 id="name">
 			Ann M. Simeoli
-		</span>
+		</h1>
 		
-		<span>
-			About
-		</span>
-		
-		<span>
-			Portfolio
-		</span>
-		
-		<span>
-			Contact
-		</span>
-	</header>
-
-	<section>
-		<h2>
-			Connect with Me
+		<h2 id="links">
+			<a href="file:///C:/Users/asime/Desktop/That%20Portfolio%20Though/Basic-Portfolio1/index.html">About |</a>
+			<a href="file:///C:/Users/asime/Desktop/That%20Portfolio%20Though/Basic-Portfolio1/portfolio.html">Portfolio |</a>
+			<a href="file:///C:/Users/asime/Desktop/That%20Portfolio%20Though/Basic-Portfolio1/contact.html">Contact</a>
 		</h2>
 
-		<img src="https://raw.githubusercontent.com/asimeoli/Basic-Portfolio1/master/assets/images/github.png">
-		<img src="https://raw.githubusercontent.com/asimeoli/Basic-Portfolio1/master/assets/images/linkedin.png">
-		<img src="https://raw.githubusercontent.com/asimeoli/Basic-Portfolio1/master/assets/images/stackoverflow.png">
-	</section>
+	</header>
 
-	<div>
-		<form>
-			Name:
-			<br>
-				<input type="text" name="Name">
-			<br>
+	<main>
+		
+		<section id="mediv">
+			<h2 id="aboutme">
+				About Me
+			</h2>
 			
-			Email:
-			<br>
-				<input type="text" name="Email">
-			<br>
-			Message:
-			<br>
-				<textarea name="Message" rows="10" cols="40">	
-				</textarea>
-			<br>
+			<div id="form">
+				<form>
+					Name:
+				<br>
+					<input type="text" name="Name">
+				<br>
+			
+					Email:
+				<br>
+					<input type="text" name="Email">
+				<br>
+					Message:
+				<br>
+					<textarea name="Message" rows="10" cols="40">	
+					</textarea>
+				<br>
 
-			<input type="submit" name="Submit">
-		</form>
-	</div>
+					<input type="submit" name="Submit">
+				</form>
+			</div>
 
+		</section>
+
+		<div id="connect">
+			
+			<h2 id="connectwme">
+				Connect with Me
+			</h2>
+
+			<div id="icons">
+				<img id="github" width="60" src="https://raw.githubusercontent.com/asimeoli/Basic-Portfolio1/master/assets/images/github.png" alt="github">
+				<img id="linkedin" width="60" src="https://raw.githubusercontent.com/asimeoli/Basic-Portfolio1/master/assets/images/linkedin.png" alt="linkedin">
+				<img id="stackoverflow" width="60" src="https://raw.githubusercontent.com/asimeoli/Basic-Portfolio1/master/assets/images/stackoverflow.png" alt="stackoverflow">
+			</div>
+
+		</div>
+
+	</main>
+
+	
 	<footer>
-		&copy; 2017 Ann M. Simeoli
+		<p>&copy; 2017 Ann M. Simeoli</p>
 	</footer>
+
 </body>
 </html>
